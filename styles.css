@@ -1,0 +1,122 @@
+:root {
+    /* coolors palette: project 1 */
+    --primary: #0d1b2a;
+    --secondary: #778da9;
+    --text1: #e0e1dd;
+    --text2: #1b263b;
+    --accent: #415a77;
+}
+
+body {
+    margin: 0;
+    color: var(--text1);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+#hero {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_de_Gobierno_de_Santa_Fe_%28fachada%29.jpg/2560px-Casa_de_Gobierno_de_Santa_Fe_%28fachada%29.jpg");
+    background-size: cover;
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 750px;
+    margin-bottom: none;
+}
+
+h1 {
+    background-color: var(--primary);
+    padding: 3px 20px 3px 20px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 300px;
+    margin-bottom: none;
+}
+
+h2 {
+    /* background-color: var(--secondary); */
+    padding: 3px 12px 3px 12px;
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: -40px;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 0 10px black;
+}
+
+.paragraph {
+    margin-top: -14px;
+}
+
+#activities-section {
+    background: var(--text1);
+    margin-top: -30px;
+    min-height: 500px;
+}
+
+div#activity-2, #activity-1, #activity-3 {
+    width: 300px;
+    /* border: 1px dotted */
+}
+
+#top3-title {
+    color: var(--primary);
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+#top-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.img-prop {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+}
+
+#guide {
+    /* background-color: var(--text2); */
+    margin: 50px auto;
+}
+
+#profile-pic {
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid var(--accent)
+}
+
+#card {
+    background-color: var(--primary);
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 10px solid var(--accent);
+    margin: 0px auto;
+    text-shadow: 0 0 2px var(--text1);
+}
+
+
+#card-text {
+    /* border: 1px dotted; */
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+#card-title, #author {
+    text-align: center;
+}
